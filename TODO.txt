@@ -1,1 +1,14 @@
 protoc --go_out=. keyvalue.proto
+
+
+Install instructions: 
+https://protobuf.dev/getting-started/gotutorial/
+
+protc command install:
+
+sudo pacman -S protobuf
+
+compiler plugin for go:
+
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+
