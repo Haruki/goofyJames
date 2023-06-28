@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package goofyJames;
 
+option go_package = "/protobuf";
+
+
 message KeyValue {
   string key = 1;
   string value = 2;
