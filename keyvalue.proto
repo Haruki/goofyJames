@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package goofyJames;
+
 message KeyValue {
   string key = 1;
   string value = 2;
